@@ -8,10 +8,22 @@
     <link rel="stylesheet" href="./dist/style.css">
 </head>
 
-<body>
-    <div class="grid place-content-center h-screen bg-slate-800">
-        <h1 class="text-yellow-200 text-4xl text-center mb-3">Tailwind-Mini-Project-by-Hitesh</h1>
-    </div>
+<body class="bg-slate-800">
+
+    <!-- navbar start -->
+    <nav class="w-full h-14 text-orange-500 bg-orange-100 flex justify-between px-6 md:px-4 items-center">
+        <div class="text-2xl font-bold ">Abdullah</div>
+        <ul class="md:flex hidden font-bold">
+            <li class="mx-[15px] cursor-pointer text-orange-500">Github</li>
+            <li class="mx-[15px] cursor-pointer text-orange-500">Linkedln</li>
+            <li class="mx-[15px] cursor-pointer text-orange-500">Leetcode</li>
+        </ul>
+        <div class="hidden md:block px-2 py-2 bg-orange-500 text-white rounded-xl font-bold cursor-pointer">Email</div>
+        <div class="md:hidden text-orange-500">
+            <a class="text-5xl" href="#">&#8801;</a>
+        </div>
+    </nav>
+    <!-- navbar end -->
 </body>
 
 </html>
